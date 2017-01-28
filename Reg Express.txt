@@ -1,0 +1,47 @@
+David Justice
+1-19-17
+Regular Expressions
+
+Task 1:
+Colou?r: the ? deletes the u in colour to make color
+The(ir|re|y’re): the () mean that the two elements can be group together. Ie Their, There, They’re
+
+Task 2:
+Match any character (+-)
+Represents zero or one of the preceding element (deletes the character)
+Represents a digit 0-9
+Represents one or more of the preceding element (a+ = aaa)
+Group of elements
+Represents any character
+Represents a digit 0-9
+Represents one or more of the preceding element (a+ = aaa)
+Represents zero or one of the preceding element (deletes the character)
+
+Task 3: 
+1.	[A-Z] [A-Z]d[A-Z]sd[A-Z]
+2.	[A-Z]d[A-Z]sd[A-Z] [A-Z]
+3.	[A-Z]dsd[A-Z] [A-Z]
+4.	[A-Z]ddsd[A-Z] [A-Z]
+5.	[A-Z] [A-Z]dsd[A-Z] [A-Z]
+6.	[A-Z] [A-Z]ddsd[A-Z]
+[A-Z] [A-Z[d]] [A-Z[d][s]] [A-Z[d][s]] [A-Z[d][s]] [A-Z][d] [A-Z[s]] [A-Z[s]]
+
+Task 4:
+1.	(01ddd)sdddddd
+2.	(01d1)sdddsdddd
+3.	(011d)sdddsdddd
+4.	(02d)sddddsdddd
+(0[0-2]d[d[)]][s[d][)]][d[s][)]][d[s][)]]ddd[d[s]][d[s]]ddd[d[s]]
+
+Task 5:
+1. [A-Z][A-Z]dd[A-Z][A-Z][A-Z]
+2. [A-Z][A-Z][A-Z]ddd[A-Z]
+3. [A-Z][A-Z][A-Z]d[A-Z]
+4. [A-Z][A-Z][A-Z]d[A-Z]
+5. [A-Z]ddd[A-Z][A-Z][A-Z]
+6. [A-Z]dd[A-Z][A-Z][A-Z]
+7. [A-Z]d[A-Z][A-Z][A-Z]
+8. [A-Z][A-Z][A-Z]ddd
+
+
+

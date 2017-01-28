@@ -1,0 +1,61 @@
+David Justice
+1-27=16
+Regular Expressions Worksheet
+
+Q1:
+babb
+acbb
+
+Q2:
+1. ([0|1]+)
+2. 1+
+3. 1(0*)
+4.(110|011)*([0|1]*)
+5. d$
+6. 1{2}d$
+
+Q3:
+bed
+bad
+
+Q4:
+11
+101
+1001
+10001
+100001...
+
+Q5:
+101
+1001
+10001...
+
+Q6:
+ben - N
+been - Y
+bean - Y
+beean - N
+
+Q7:
+N
+Y
+Y
+N
+
+Q8:
+Y
+N
+Y
+Y
+
+Q9:
+Y
+Y
+Y
+N
+
+Q10:
+.+[c|s].+[c|s].
+
+Q11:
+www[.]([A-Z]|[a-z])*[.]...
